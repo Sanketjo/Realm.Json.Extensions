@@ -2,7 +2,6 @@
 
 namespace RealmJson.Test
 {
-	[Preserve(AllMembers = true)]
 	public class StateUnique : RealmObject
 	{
 		[PrimaryKey]
@@ -10,7 +9,6 @@ namespace RealmJson.Test
 		public string name { get; set; }
 	}
 
-	[Preserve(AllMembers = true)]
 	public class State : RealmObject
 	{
 		public string abbreviation { get; set; }
